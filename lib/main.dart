@@ -1,3 +1,4 @@
+import 'package:envato_onboarding_screens_data_analystic_development/screens/DataSearch.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -9,21 +10,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        body: Column(
-          children: [
-            Image(
-              alignment: Alignment.bottomCenter,
-              height: 400,
-              width: double.infinity,
-              fit: BoxFit.cover,
-              image: AssetImage('assets/data_search.png'),
-            ),
-            Text(
-              "Data Search",
-              textAlign: TextAlign.center,
-            ),
-          ],
-        ),
+        body: DataScreen(),
       ),
     );
   }
