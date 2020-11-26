@@ -67,6 +67,9 @@ flutter:
         - asset: fonts/Montserrat-Bold.ttf
     - family: Montserratboldextra
       fonts:
-        - asset: fonts/Montserrat-ExtraBold.ttf    
+        - asset: fonts/Montserrat-ExtraBold.ttf 
+    - family: MarlinGeo-ExtraBold
+      fonts:
+        - asset: fonts/MarlinGeo-ExtraBold.ttf    
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages

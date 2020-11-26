@@ -24,7 +24,7 @@ class Analystic extends StatelessWidget {
               style: TextStyle(
                 fontWeight: FontWeight.bold,
                 fontSize: 25,
-                fontFamily: "Montserratboldextra",
+                fontFamily: "MarlinGeo-ExtraBold",
                 color: Color.fromARGB(255, 240, 39, 93),
               ),
             ),
